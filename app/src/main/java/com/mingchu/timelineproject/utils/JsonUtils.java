@@ -1,4 +1,4 @@
-package com.mingchu.timelineproject;
+package com.mingchu.timelineproject.utils;
 
 import android.content.Context;
 import android.content.res.AssetManager;
