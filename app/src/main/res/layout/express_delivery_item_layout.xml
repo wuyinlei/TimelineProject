@@ -7,9 +7,17 @@
                >
 
     <View
-        android:id="@+id/shuxian"
+        android:id="@+id/shuxian_up"
         android:layout_width="2dp"
-        android:layout_height="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:background="@color/colorAccent"/>
+
+    <View
+        android:id="@+id/shuxian_down"
+        android:layout_width="2dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="50dp"
         android:layout_marginLeft="80dp"
         android:background="@color/colorAccent"/>
 
@@ -17,9 +25,9 @@
         android:id="@+id/express_delivery_img"
         android:layout_width="20dp"
         android:layout_height="20dp"
+        tools:background="@mipmap/ic_ok"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="71dp"
-        android:background="@mipmap/ic_ok"/>
+        android:layout_marginLeft="71dp"/>
 
     <RelativeLayout
         android:layout_width="70dp"

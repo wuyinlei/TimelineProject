@@ -6,29 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.mingchu.timelineproject.activity.MainActivity">
 
-    <Button
-        android:visibility="gone"
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#f4f4f4"
-        android:onClick="requestData"
-        android:text="查询快递"/>
-
-    <View
-        android:visibility="gone"
-        android:id="@+id/blank"
-        android:layout_width="match_parent"
-        android:layout_height="10dp"
-        android:layout_below="@+id/button"
-        android:background="#4fafaf"/>
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_view"
-        android:visibility="invisible"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/blank"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
 
 
 </RelativeLayout>
